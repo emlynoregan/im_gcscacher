@@ -8,11 +8,11 @@ except ImportError:
 
 dist = setup(
     name='im_gcscacher',
-    version='0.1.0',
+    version='0.1.1',
     description='A decorator for caching into gcs on google app engine, python standard environment',
     author='Emlyn O\'Regan',
     author_email='emlynoregan@gmail.com',
-    url='https://github.com/emlynoregan/im_task',
+    url='https://github.com/emlynoregan/im_gcscacher',
     license='../LICENSE.txt',
     packages=['im_gcscacher'],
     install_requires=['im_util', 'GoogleAppEngineCloudStorageClient', 'cloudpickle'],
